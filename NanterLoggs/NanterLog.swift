@@ -6,9 +6,8 @@
 //
 
 import UIKit
-import Moya
-import Alamofire
-import CryptoSwift
+//import Moya
+//import CryptoSwift
 
 //MARK: - NanterLog
 open class NanterLog {
@@ -17,7 +16,7 @@ open class NanterLog {
     
     public func logs() {
         
-        print("\(AES.Error.dataPaddingRequired)")
+//        print("\(AES.Error.dataPaddingRequired)")
         print("logs")
     }
     

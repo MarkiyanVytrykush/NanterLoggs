@@ -11,16 +11,12 @@ Pod::Spec.new do |s|
 	:file => 'LICENSE' 
  }
   s.ios.deployment_target = '13.0'
+  s.swift_version = '4.2'
   s.authors      = 'MarkiyanVytrykush', { 'MarkiyanVytrykush' => 'markiianvytrykush@gmail.com' }
   s.swift_version = "4.2"
 
   s.source        = { :git => 'https://github.com/MarkiyanVytrykush/NanterLoggs.git', :tag => s.version.to_s }
   s.source_files        = 'Classes/*.{h,m,d}', 'NanterLoggs'
 
-  s.framework = "UIKit"
-
-  s.dependency 'Moya'
-  s.dependency 'CryptoSwift'
-  s.dependency 'ReachabilitySwift'
 
 end
